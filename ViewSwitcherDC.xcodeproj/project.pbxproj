@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1476921E622A1D00DD8BCC /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1476911E622A1D00DD8BCC /* SwitchingViewController.swift */; };
+		3F1476941E62314A00DD8BCC /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1476931E62314A00DD8BCC /* BlueViewController.swift */; };
+		3F1476961E6231AA00DD8BCC /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1476951E6231AA00DD8BCC /* YellowViewController.swift */; };
 		3F26E7441E616AF60011F6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26E7431E616AF60011F6E2 /* AppDelegate.swift */; };
-		3F26E7461E616AF60011F6E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F26E7451E616AF60011F6E2 /* ViewController.swift */; };
 		3F26E7491E616AF60011F6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F26E7471E616AF60011F6E2 /* Main.storyboard */; };
 		3F26E74B1E616AF60011F6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F26E74A1E616AF60011F6E2 /* Assets.xcassets */; };
 		3F26E74E1E616AF60011F6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F26E74C1E616AF60011F6E2 /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1476911E622A1D00DD8BCC /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		3F1476931E62314A00DD8BCC /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		3F1476951E6231AA00DD8BCC /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		3F26E7401E616AF60011F6E2 /* ViewSwitcherDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitcherDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F26E7431E616AF60011F6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F26E7451E616AF60011F6E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F26E7481E616AF60011F6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F26E74A1E616AF60011F6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F26E74D1E616AF60011F6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,9 +101,11 @@
 		3F26E7421E616AF60011F6E2 /* ViewSwitcherDC */ = {
 			isa = PBXGroup;
 			children = (
-				3F26E7431E616AF60011F6E2 /* AppDelegate.swift */,
-				3F26E7451E616AF60011F6E2 /* ViewController.swift */,
 				3F26E7471E616AF60011F6E2 /* Main.storyboard */,
+				3F1476911E622A1D00DD8BCC /* SwitchingViewController.swift */,
+				3F1476931E62314A00DD8BCC /* BlueViewController.swift */,
+				3F1476951E6231AA00DD8BCC /* YellowViewController.swift */,
+				3F26E7431E616AF60011F6E2 /* AppDelegate.swift */,
 				3F26E74A1E616AF60011F6E2 /* Assets.xcassets */,
 				3F26E74C1E616AF60011F6E2 /* LaunchScreen.storyboard */,
 				3F26E74F1E616AF60011F6E2 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F26E7461E616AF60011F6E2 /* ViewController.swift in Sources */,
+				3F1476961E6231AA00DD8BCC /* YellowViewController.swift in Sources */,
 				3F26E7441E616AF60011F6E2 /* AppDelegate.swift in Sources */,
+				3F1476941E62314A00DD8BCC /* BlueViewController.swift in Sources */,
+				3F1476921E622A1D00DD8BCC /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +513,7 @@
 				3F26E76A1E616AF70011F6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F26E76B1E616AF70011F6E2 /* Build configuration list for PBXNativeTarget "ViewSwitcherDCTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				3F26E76D1E616AF70011F6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F26E76E1E616AF70011F6E2 /* Build configuration list for PBXNativeTarget "ViewSwitcherDCUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				3F26E7701E616AF70011F6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
